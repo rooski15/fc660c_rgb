@@ -2,19 +2,19 @@ Modified FC660C Firmware to add RGB Underglow Support
 ====================================================
 Changelog:
 
-File Edited:
-	matrix.c
-		Disabled lines 113 & 114. Disables insert indicator LED.
-	rules.mk
-		Disabled line 21. COMMAND_ENABLE = yes
-		Added line 23. RGBLIGHT_ENABLE = yes
-	config.h
-		Added lines 48-78. Adds RGB Underglow.
-File Added:
-	keymaps/default/rules.mk
-		COMMAND_ENABLE = yes
-	VIA JSON/fc660c_via_RGB.json
-		Updated JSON for VIA
+- File Edited:
+	- matrix.c
+		- Disabled lines 113 & 114. Disables insert indicator LED.
+	- rules.mk
+		- Disabled line 21. COMMAND_ENABLE = yes
+		- Added line 23. RGBLIGHT_ENABLE = yes
+	- config.h
+		- Added lines 48-78. Adds RGB Underglow.
+- File Added:
+	- keymaps/default/rules.mk
+		- COMMAND_ENABLE = yes
+	- VIA JSON/fc660c_via_RGB.json
+		- Updated JSON for VIA
 		
 FC660C Alt Controller
 =================
